@@ -1,0 +1,18 @@
+.btn {
+    border: none;
+    background-color: rgb(190, 201, 197);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px rgba($color: black, $alpha:0.5);
+}
+.btn-enviar {
+    @extend .btn;
+    background-color: rgb(172, 169, 169);
+}
+.btn-cancelar {
+    @extend .btn;
+    background-color: rgb(159, 175, 159);
+    color: wheat;
+}

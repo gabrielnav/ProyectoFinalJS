@@ -1,0 +1,24 @@
+
+ $fonts:(
+     Arial:green,
+     Cambría:red,
+     Georgia:grey
+ );
+ @each $font, $color in $fonts{
+   .font__#{$font}{
+       font-family: #{$font};
+     color: #{$color};
+   }
+ }
+ $estilos: (
+   color: rgb(224, 227, 230),
+   centro: center,
+   tFuente: 12px,
+   1rem: 1rem
+ );
+ p {
+   background-color: map-get($estilos,color);
+   text-align: map-get($estilos,centro);
+   padding: map-get($estilos, 1rem);
+   font-size: map-get($estilos,tFuente);
+ }

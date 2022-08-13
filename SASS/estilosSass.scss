@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  // comentario sass
+  /*comentario css*/
+$color1:rgb(79, 99, 141);
+$color2:rgb(182, 134, 134);
+
+@import "index.scss";
+@import "nosotros.scss";
+@import "contacto.scss";
+
+
+ 

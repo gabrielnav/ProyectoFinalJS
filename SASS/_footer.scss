@@ -1,0 +1,48 @@
+footer {
+  height: 8rem;
+  background: radial-gradient(ellipse at top,$color1, transparent),
+  radial-gradient(ellipse at top, $color2, transparent);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+   .footer__menu {
+       width: 100%;
+      ul {
+       display: flex;
+       justify-content: space-evenly;
+       width: 100%;
+       li {
+           text-transform: uppercase;
+           font-weight: 600;
+           border-radius: 5px;
+           padding: 0.5rem;
+         }
+     }
+   } 
+    .footer__socialMedia-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            width: 4rem;
+            height: 4rem;
+            color: white;
+            background-color: rgb(124, 124, 124);
+            border-radius: 50%;
+          transition: all 0.5s ease-in;
+          :hover {
+            color: rgb(124, 124, 124);
+            background-color: white;
+            transform: scale(1.1) translateY(-5px);
+          }
+          }
+      }
+}
+

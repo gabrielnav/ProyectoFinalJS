@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  
+  /* HOME */
+  /* +++++++++++ */
+
+
+  .home__mainContainer section.home__categoriesContainer {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 80%;
+    margin: 4rem auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home__mainContainer section.home__categoriesContainer .home__category--image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .home__mainContainer
+    section.home__categoriesContainer
+    .home__category--image
+    a {
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(235, 235, 235);
+    position: absolute;
+    transition: all 0.5s ease-in;
+  }
+  .home__mainContainer
+    section.home__categoriesContainer
+    .home__category--image
+    a:hover {
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: center;
+    padding: 0.3rem 0;
+  }
+  
+  .home__mainContainer
+    section.home__categoriesContainer
+    .home__category--image
+    .filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.5s ease-in-out;
+  }
+
+  .home__mainContainer
+    section.home__categoriesContainer
+    .home__category--image
+    .filter:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  
+  /* Media queries */
+
+@media screen and (min-width: 768px) {
+  .home__mainContainer section.home__categoriesContainer {
+    flex-direction: row;
+    height: 300px;
+  }
+}
+  /* +++++++++++++++++> */
+  /* FIN HOME */
+  /* +++++++++++ */
+  
+
+
+.contenedor-de-Producto{
+  padding-top: 3%;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  background-color: rgb(205, 248, 255);
+  flex-wrap: wrap;
+}
+
+.Producto{
+  border: 10px solid rgb(255, 153, 0);
+  padding: 50px;
+  margin: 20px;
+  background-color: burlywood;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 900px;
+  height: 1000px;
+  align-content: center;
+}

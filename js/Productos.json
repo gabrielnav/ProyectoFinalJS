@@ -1,0 +1,12 @@
+
+
+[
+    {"titulo":"Buzo Canguro","imagen":"../assets/images/Mujer1.jpg", "price": 1500, "diseñador": "KLOVERSTORE","descripcion": "En KLOVERSTORE podes encontrar la ultima tendencia en cuero 100% ecologico.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"},
+    {"titulo":"Remera Lisa","imagen":"../assets/images/Hombre1.1.jpg","price": 1000,"diseñador":  "KLOVERSTORE","descripcion":  "La ultima tendencia en ropa formal la encontras en KLOVERSTORE.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"},
+    {"titulo":"Camisa","imagen": "../assets/images/Hombre3.jpg","price":3500,"diseñador":  "KLOVERSTORE", "descripcion": "En kloverstore podes encontrar todo nuevo de nuestra coleccion de OTOÑO 2022.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"},
+    {"titulo":"Remera con diseño","imagen":"../assets/images/Mujer5.jpg", "price": 1500, "diseñador": "KLOVERSTORE","descripcion": "En KLOVERSTORE podes encontrar la ultima tendencia en cuero 100% ecologico.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"},
+    {"titulo":"Campera abrigada","imagen":"../assets/images/Mujer6.jpg","price": 1000,"diseñador":  "KLOVERSTORE","descripcion":  "La ultima tendencia en ropa formal la encontras en KLOVERSTORE.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"},
+    {"titulo":"Lentes","imagen": "../assets/images/Mujer7.jpg","price":3500,"diseñador":  "KLOVERSTORE", "descripcion": "En kloverstore podes encontrar todo nuevo de nuestra coleccion de OTOÑO 2022.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"},
+    {"titulo":"Conjunto","imagen":"../assets/images/Mujer2.jpg", "price": 1500, "diseñador": "KLOVERSTORE","descripcion": "En KLOVERSTORE podes encontrar la ultima tendencia en cuero 100% ecologico.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"},
+    {"titulo":"Campera","imagen":"../assets/images/Hombre2.1.jpg","price": 1000,"diseñador":  "KLOVERSTORE","descripcion":  "La ultima tendencia en ropa formal la encontras en KLOVERSTORE.","link": "https://www.youtube.com/watch?v=Q3xaq0aEfzM"}
+]
